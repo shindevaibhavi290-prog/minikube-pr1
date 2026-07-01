@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: web-pod
+  labels:
+    app: d-app
+spec:
+  containers:
+  - name: web-c1
+    image: shindevaibhavi11/port-web
