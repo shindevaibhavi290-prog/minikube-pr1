@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: web-port-svc
+  name: nginx-svc
 spec:
   selector:
-    app: d-app
+    app: demo-app
   ports:
     - port: 80
   type: NodePort
